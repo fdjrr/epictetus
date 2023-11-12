@@ -6,11 +6,11 @@ export default function FeaturedPost() {
   return (
     <article>
       <div className="flex -mx-6 lg:items-center items-start flex-wrap">
-        <div className="px-4 lg:w-8/12 md:w-7/12  w-full">
+        <div className="px-4 lg:w-8/12 md:w-7/12 w-full">
           <Link href="/posts/detail">
             <Image
               src="/christopher-gower-m_HRfLhgABo-unsplash.jpg"
-              className="rounded-xl w-full"
+              className="rounded-xl w-full mb-4"
               width={1000}
               height={1000}
               alt="Featured Post"
